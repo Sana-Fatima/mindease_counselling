@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>MindEase Counseling</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>MindEase Counseling</h1>
+        </div>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <nav>
+            <ul class="menu" id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="counselors.html">Counselors</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <section class="hero">
+        <video autoplay loop muted>
+            <source src="media/hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero-content">
+            <h2>Your Mental Health Matters</h2>
+            <p>Get professional online counseling for a better life.</p>
+            <a href="booking.html" class="cta-btn">Book a Session</a>
+        </div>
+    </section>
+
+<!-- Welcome Section -->
+<section class="welcome">
+    <div class="container">
+        <h2>Welcome to MindEase Counseling</h2>
+        <p>We offer personalized therapy to help you on your mental health journey. Our dedicated professionals are here to support you every step of the way.</p>
+        <p>Whether you're struggling with stress, anxiety, depression, or relationship issues, we provide tailored therapy options to meet your needs. Our goal is to empower you to lead a fulfilling and balanced life.</p>
+        <p>At MindEase, we prioritize your mental well-being and work closely with you to ensure a compassionate, understanding, and effective therapy experience. Let us help you take the first step toward healing.</p>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section class="services">
+    <div class="container">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="media/therapy.jpg" alt="Individual Therapy">
+                    <div class="overlay">
+                        <h3>Individual Therapy</h3>
+                        <p>Personalized therapy sessions to address your mental health needs. We work together to find the right approach for you.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="media/couple.jpg" alt="Couples Therapy">
+                    <div class="overlay">
+                        <h3>Couples Therapy</h3>
+                        <p>We help couples strengthen their relationships through guided communication and conflict resolution strategies.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="media/group.jpg" alt="Group Therapy">
+                    <div class="overlay">
+                        <h3>Group Therapy</h3>
+                        <p>Group therapy sessions provide a safe space for sharing experiences and learning from others who understand.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Counselors Section -->
+<section class="counselors">
+    <div class="container">
+        <h2>Counselors</h2>
+        <div class="counselors-list">
+            <div class="counselor-card">
+                <div class="counselor-image">
+                    <img src="media/counselor1.jpg" alt="Counselor 1">
+                </div>
+                <div class="counselor-info">
+                    <h3>John Doe</h3>
+                    <p class="education">M.A. in Psychology</p>
+                    <p class="specialization">Specializing in Cognitive Behavioral Therapy</p>
+                </div>
+            </div>
+            <div class="counselor-card">
+                <div class="counselor-image">
+                    <img src="media/counselor2.jpg" alt="Counselor 2">
+                </div>
+                <div class="counselor-info">
+                    <h3>Jane Smith</h3>
+                    <p class="education">Ph.D. in Clinical Psychology</p>
+                    <p class="specialization">Specializing in Trauma Therapy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonial Section -->
+<section class="testimonials">
+    <div class="container">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"MindEase Counseling helped me regain control of my mental health. The counselors are professional, understanding, and compassionate."</p>
+                <p class="client-name">John D.</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"I had a wonderful experience at MindEase Counseling. Their approach to therapy is refreshing, and I felt truly supported throughout the process."</p>
+                <p class="client-name">Sarah L.</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"The guidance I received was invaluable. I can confidently say that MindEase has made a positive impact on my life."</p>
+                <p class="client-name">Michael T.</p>
+            
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section class="contact-section">
+    <div class="container">
+        <div class="contact-content">
+            <!-- Left Side (Text) -->
+            <div class="contact-text">
+                <h2>Got Questions?</h2>
+                <p>If you feel you need more information before you are ready to book a meeting with a member of our team, we fully understand. You are always welcome to reach out and stay completely anonymous should you want to.</p>
+                <p>Ask us anything; we are here to help.</p>
+            </div>
+            <!-- Right Side (Contact Form) -->
+            <div class="contact-form">
+                <h3>Send us a message</h3>
+                <form action="#" method="post">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Final CTA Section -->
+<section class="cta-section">
+    <div class="cta-content">
+        <h2>Ready to Take the Next Step?</h2>
+        <p>Whether you're looking for support or just need more information, we're here to help. Reach out to our team and begin your journey to better mental health.</p>
+        <a href="booking.html" class="cta-button">Book a Session</a>
+    </div>
+</section>
+
+
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 MindEase Counseling. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
